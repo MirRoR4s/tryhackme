@@ -8,27 +8,51 @@
 
 这是我阅读tryhackme文章的一个记录项目（英文），偶尔有几篇谷歌翻译的文章，我仅仅稍润色了一下。
 
+> 目前我正在翻译所阅览的文章，并不保证原文一样，但是尽量做到不曲解原意。
 
 >目录编写规则：主模块名为二级目录，主模块下的一级模块为三级目录。
 
 ## Pre Security
 
-This learning path will teach you the pre-requisite technical knowledge to get started in cyber security. To attack or defend any technology, you have to first learn how this technology works.
+这一部分针对完全零基础的网安入门者，告诉大家从什么地方开始学起、学习网安之前需要学习什么前置知识。学习这个模块完全不需要任何前置知识！
 
-The Pre-Security learning path is a beginner friendly and fun way to learn the basics. Your cyber security learning journey starts here!
-
-No Prior Knowledge
-You need no prerequisite to start this pathway! Just enthusiasm and excitement to learn!
 
 ### Introduction to Cyber Security
 
-Understand what is offensive and defensive security, and learn about careers available in cyber.
+这一部分说明什么是进攻性安全，什么是防御性安全。同时介绍了一下网络安全中的职业分布。
+
 
 1. [Intro to Offensive Security](https://hackmd.io/40MlnZxvQESKUEMqRLgsXg)
 2. Intro to Defensive Security
 
+### Network Fundamentals
+
+### How The Web Works
+
+### Linux Fundamentals
+
+许多服务器和安全工具都使用linux操作系统。网络安全中的重要技能之一就是能熟练使用linux。
+
+
+1. [Linux Fundamentals Part 1](https://hackmd.io/2SYIrlkeSXKPYhh_yzxN1Q?edit)
+
+### Windows Fundamentals
+
+这个模块可以让我们切身体验一下Windows操作系统及其安全控制机制。在这个模块中学习到的Windows基础知识能够帮助我们识别、利用和保护Windows操作系统。
+
+1. Windows Fundamentals 1
 
 ## Web Fundamentals
+
+Web 基础旨在教会我们如何攻击web应用程序。为了成功地对web应用程序进行攻击和漏洞利用，我们需要理解web应用是如何工作的。
+
+第一节的内容主要阐述了web的工作原理。
+
+第二节主要阐述如何使用安全工具和目标进行交互。
+
+第三节涵盖了如今web应用程序中所发现的大部分漏洞，我们可以上手实操一下对这些漏洞进行利用的过程。🤭
+
+最后一节是实操环节，对前面所学进行实践。
 
 The aim of this path is to teach you how to attack web applications. To successfully attack and exploit web applications, you need to understand how they work. The first section (Web Fundamentals) will give you all the pre-requisite knowledge on this. 
 
@@ -49,6 +73,7 @@ After completing this path, you should be able to:
 
 
 ### Prerequisites
+
 
 You need a basic understanding of how web applications work to complete this pathway. If you do not already have these prerequisites, complete the [Pre-Security Pathway](https://tryhackme.com/path-action/presecurity/join).
 
@@ -79,6 +104,7 @@ You need a basic understanding of how web applications work to complete this pat
 
 ## Cyber Defense
 
+网络防御路径旨在给出一个检测和响应威胁需要查看的不同区域的宽泛的简介。
 The Cyber Defense path aims to give a broad introduction to the different areas necessary to detect and respond to threats. This path will be looking at the following areas:
 
 - Getting Started
